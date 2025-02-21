@@ -1,0 +1,100 @@
+/* File: styles.css
+ * Author: Matt Baalman
+ * Date: 2/20/25 */
+
+/*CSS reset*/
+body,
+header,
+nav,
+h1,
+main,
+footer,
+img,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Style rules for images and body*/
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    float: left
+}
+
+body {
+    background-color: #edf1ec
+}
+
+/*Style rules for header*/
+header {
+    float: left;
+    padding: 2%;
+    background-color: #2c4227;
+    color: #fff;
+}
+
+/*Style rules for navigation*/
+nav {
+    width: 70%;
+    float: right
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.3em
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+    font-weight: bold
+}
+
+/*Style rules for main content*/
+main {
+    clear: left;
+    background-color: #edf1ec;
+    padding: 0 5%;
+    font-family: 'Times New Roman', verdana, Georgia
+}
+
+h3 {
+    font-size: 120%
+}
+
+.university{
+    color: #0f5700
+}
+
+#contact {
+    text-align: center;
+    padding: 5em;
+    font-weight: bold
+}
+
+.link {
+    text-decoration: none;
+    color: #447c37
+}
+
+.map {
+    border: 10px solid #000;
+    max-height: 100%;
+    max-width: 100%
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em
+}
